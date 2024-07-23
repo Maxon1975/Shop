@@ -24,6 +24,6 @@ public class Phone extends Product implements Device, Mobile {
 
     @Override
     public void carry() {
-        System.out.println("Телефон недоступен");
+        System.out.println("Телефон доступен");
     }
 }
